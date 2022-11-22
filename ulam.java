@@ -60,7 +60,7 @@ class ulam{
         for(int i=0;i<n;i++){
             for(int j=0;j<n;j++){
                 try{
-                    if(arr[i][j]%10==0)
+                    if(hashmap.containsKey(arr[i][j]))
                         System.out.print("* ");
                     else
                         System.out.print("  ");
@@ -70,42 +70,3 @@ class ulam{
         }
     }
 }
-// class ulam{
-//     public static void main(String[] args){
-//         int[][] arr=new int[11][11];
-//         int count=1;
-//         int x=-1;
-//         arr[5][5]=count;
-//         for(int i=1;i<11;i++){
-//             if(i%2!=0){
-//                 x++;
-//                 for(int j=0;j<i;j++){
-//                     count++;
-//                     arr[5+x][5+x-1-j]=count;
-//                 }
-//                 for(int j=0;j<i;j++){
-//                     count++;
-//                     arr[5+x-1-j][5-x-1]=count;
-//                 }
-//             }else{
-//                 for(int j=0;j<i;j++){
-//                     count++;
-//                     arr[5-x-1][5-x+j]=count;
-//                 }
-//                 for(int j=0;j<i;j++){
-//                     count++;
-//                     arr[5-x+j][5+x+1]=count;
-//                 }
-//             }
-//         }
-//         for(int i=0;i<11;i++){
-//             for(int j=0;j<11;j++){
-//                 if(arr[i][j]>9)
-//                     System.out.print(arr[i][j]+" ");
-//                 else
-//                     System.out.print(arr[i][j]+"  ");
-//             }
-//             System.out.println();
-//         }
-//     }
-// }
