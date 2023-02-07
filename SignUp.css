@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D6A2E8;
+}
+.head{
+    height:95%;
+    border-radius: 20px;
+    transition: .5s;
+    width:700px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    float:left;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.heading{
+    display:flex;
+    align-items: center;
+    margin: 10px;
+}
+.img1{
+    height:45px;
+    width:45px;
+}
+.get{
+    font-family: 'Cinzel Decorative', cursive;
+    letter-spacing: 3px;
+    font-size: 35px;
+}
+.life{
+    font-family: 'Cinzel Decorative', cursive;
+    letter-spacing: 3px;
+    color: #c0392b;        
+    font-size: 35px;
+}
+label{
+    font-size: 15px;
+    padding:0 20px;
+    font-family: 'Playfair Display', serif;
+}
+.text{
+    height:30px;
+    width:500px;
+    font-family: 'Cinzel Decorative', cursive;
+    border:none;box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    outline:none;
+    background-color: #f2e1f8;
+    border-radius: 50px;
+    padding: 0 20px;
+    font-size: 15px;
+}
+.sbox{
+    display: flex;
+    align-items: center;
+    width:450px;
+}
+.sbox input{
+    border:none;
+    outline: none;
+    cursor: pointer;
+    margin:0 0 0 20px;
+}
+.sbox label{
+    margin: 0 20px 0 -25px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+button{
+    height:30px;
+    width:100px;
+    background-color:#D6A2E8 ;
+    border-radius: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 12px;
+}
+button:hover{
+    height:30px;
+    width:100px;
+    background-color:#8c1ab6 ;
+    border-radius: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 12px;
+}
+@media (max-width:800px){
+    .head{
+        transition: .5s;
+        transform: scale(.75);
+    }
+    .text{width:400px;}
+    .sbox{width:300px;}
+}
+@media (max-width:400px){
+    body{
+        font-size: .7em;
+    }
+    .head{
+        transition: .5s;
+        transform: scale(.7);
+    }
+    .text{width:280px;}
+    .sbox{width:250px;}
+}
