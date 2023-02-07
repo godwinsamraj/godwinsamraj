@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GETLIFE | SIGNUP</title>
+    <link rel="stylesheet" href="SignUp.css">
+    <script src="SignUp.js"></script>
+</head>
+<body>
+    <div class="head">
+        <div class="heading">
+            <img class="img1"src="Blood.jpg"/><h1 class="get">GET</h1><h1 class="life">LIFE</h1>  
+        </div>
+        <h2>USER REGISTRATION</h2>
+        <div class="box">
+            <label>Username :</label>
+            <input spellcheck="false" oninput="checkUsername()" id="username" type="text" class="text">
+        </div>
+        <div class="box">
+            <label>Name :</label>
+            <input spellcheck="false" id="name" type="text" class="text">
+        </div>
+        <div class="box">
+            <label>Age :</label>
+            <input spellcheck="false" id="age" type="text" class="text">
+        </div>
+        <div class="sbox">
+            <label>Gender :</label>
+            <input name="gender" value="Male" type="radio">Male
+            <input name="gender" value="Female" type="radio">Female
+        </div>
+        <div class="sbox">
+            <label>Addiction to any Drugs? :</label>
+            <input name="drugs" value="Yes" type="radio">Yes
+            <input name="drugs" value="No" type="radio">No
+        </div>
+        <div class="box">
+            <label>City :</label>
+            <input spellcheck="false" id="city" type="text" class="text">
+        </div>
+        <div class="box">
+            <label>District :</label>
+            <input spellcheck="false" id="district" type="text" class="text">
+        </div>
+        <div class="box">
+            <label>Pincode :</label>
+            <input spellcheck="false" id="pincode" type="text" class="text">
+        </div>
+        <div class="box">
+            <label>Phone Number :</label>
+            <input spellcheck="false" id="phone" type="text" class="text">
+        </div>
+        <div class="box">
+            <label>Blood Group :</label>
+            <input spellcheck="false" id="bloodgroup" type="text" class="text">
+        </div>
+        <div class="box">
+            <label>Email id :</label>
+            <input spellcheck="false" oninput="checkEmail()" id="email" type="email" class="text">
+        </div>
+        <div class="box">
+            <label>Create Password :</label>
+            <input spellcheck="false" id="password" type="password" class="text">
+        </div>
+        <div>
+            <button onclick="handleClick()">SUBMIT FORM</button>
+        </div>
+        <div>ALREADY HAVE AN ACCOUNT ? PLEASE <a href="Login.html">LOGIN!</a></div>
+    </div>
+</body>
+</html>
