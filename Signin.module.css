@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    height:180vh;
+    width:100vw;
+    display: flex;
+    font-family: 'Roboto Slab', serif;
+    background-color: #c7ecee;
+    overflow-x: hidden;
+}
+.main{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.sub{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.content{
+    height:1700px;
+    width:700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color:#dff9fb;
+    border-radius: 20px;
+}
+input{
+    height:30px;
+    width:500px;
+    border: none;
+    margin:10px 0 10px 0;
+    outline:none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    padding:0 20px 0 20px;
+    font-family: 'Roboto Slab', serif;
+    border-radius: 20px;
+    font-size: 15px;
+}
+textarea{
+    height:70px;
+    width:500px;
+    margin:10px 0 10px 0;
+    border: none;
+    font-family: 'Roboto Slab', serif;
+    height:90px;
+    outline:none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    padding:0 20px 0 20px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+button{
+    background-color: #c7ecee;
+    border: none;
+    height:30px;
+    font-family: 'Roboto Slab', serif;
+    border-radius: 15px;
+    width:70px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+button:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+h1{
+    font-size:40px ;
+}
+label{
+    font-size:20px ;
+}
+@media(min-width:150px){
+    .main{
+        transform: scale(.8);
+        transition: .5s;
+    }
+}
+@media(min-width:300px){
+    .main{
+        transform: scale(.9);
+        transition: .5s;
+    }
+}
+@media(min-width:700px){
+    body{
+        justify-content: center;
+        align-items: center;
+    }
+    .main{
+        transform: scale(1);
+        transition: .5s;
+    }
+}
+@media(min-width:1000px){
+    body{
+        justify-content: center;
+        align-items: center;
+    }
+    .main{
+        transform: scale(1);
+        transition: .5s;
+    }
+}

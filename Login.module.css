@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    height:100vh;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/card.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card{
+    background-image: url(../images/card.jpg);
+    height:600px;
+    width:400px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    margin: 30px;
+    height:40px;
+    width:270px;
+    padding: 0 20px 0 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    outline: none;
+}
+button{
+    margin: 30px;
+    height:35px;
+    width:100px;
+    border-radius: 18px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color:#5960f7;
+}
+button:hover{
+    background-color:#3e7ef5;
+    transition: .5s;
+}
+@media (min-width:300px){
+    .card{
+        transform: scale(.8);
+        transition: .5s;
+    }
+}
+@media (min-width:700px){
+    .card{
+        transform: scale(1);
+        transition: .5s;
+    }
+}
+@media (min-width:1000px){
+    .card{
+        transform: scale(1.2);
+        transition: .5s;
+    }
+}

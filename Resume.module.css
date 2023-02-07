@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    height:100vh;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00cec9;
+    font-family: 'Poppins', sans-serif;
+}
+.resume{
+    height:800px;
+    width:600px;
+    background-color: #81ecec;
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: scale(1.2);
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.name{
+    height:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height:30px;
+    width: 80px;
+    border: none;
+    border-radius: 15px;
+    position: relative;
+    bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    background-color: #00cec9;
+    color: white;
+}
+.content{
+    height:750px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    width:200px;
+    height:650px;
+    position: relative;
+    display: flex;
+    top:-30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.right{
+    width:300px;
+    top:-30px;
+    height:700px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact{
+    height:175px;
+    display:flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: column;
+    width:200px;
+}
+.skill{
+    height:175px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:200px;
+}
+.education{
+    height:400px;
+    width:200px;
+    display:flex;
+    justify-content: space-evenly;    
+    align-items: center;
+    flex-direction: column;
+}
+.about{
+    height:170px;
+    width:300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h4,h5,div,p{
+    text-align: center;
+}
+.jt_1,.jt_2,.jt_3{
+    height:170px;
+    width:300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
